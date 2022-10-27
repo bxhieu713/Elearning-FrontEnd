@@ -1,4 +1,4 @@
-# WedemyClient
+# ACEDEMY DEMO 
 
 (Frontend Repo). Clone of Udemy, built using Vue 3 + Typescript + Element Plus + Injector/Provider API (No Vuex!).
 This App is also integrated with PayPal and CreditCard checkout (both powered by **Braintree Payments**). Requires Node v16.x or higher.
