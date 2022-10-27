@@ -1,0 +1,39 @@
+{
+  "name": "wedemytwo",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^1.1.4",
+    "@techassi/vue-youtube-iframe": "^1.0.6",
+    "axios": "^0.26.1",
+    "braintree-web-drop-in": "^1.6.1",
+    "core-js": "^3.8.3",
+    "element-plus": "^2.1.8",
+    "prettier": "^2.7.1",
+    "register-service-worker": "^1.7.2",
+    "validator": "^13.7.0",
+    "vue": "^3.2.13",
+    "vue-github-button": "^3.0.3",
+    "vue-router": "^4.0.3",
+    "vue2-timeago": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/braintree-web-drop-in": "^1.22.4",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-pwa": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "css-loader": "^6.7.1",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
+    "typescript": "~4.5.5"
+  }
+}
