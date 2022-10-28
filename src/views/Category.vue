@@ -84,7 +84,7 @@ export default defineComponent({
     },
     fetchCoursesbyCategory(name: string) {
       this.isLoading = true;
-      CourseService.getByCategory(name)
+      CourseService.getByCategory(name) 
         .then((res) => (this.courses = res.data))
         .catch((error) => (this.serverError = error.message))
         .finally(() => (this.isLoading = false));
@@ -104,7 +104,7 @@ export default defineComponent({
         if (!newVal) return;
         this.categoryName = newVal;
         this.fetchCoursesbyCategory(this.categoryName);
-        document.title = `Courses in ${this.categoryName} | Wedemy`;
+        document.title = `Courses in ${this.categoryName} | UETdemy`;
       },
     },
   },
