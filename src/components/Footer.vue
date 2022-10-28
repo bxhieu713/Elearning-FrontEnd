@@ -8,10 +8,10 @@
       <el-row class="footer-row">
         <!-- Place this tag where you want the button to render. -->
         <github-button
-          href="https://github.com/longwater1234"
-          aria-label="Follow @longwater1234 on GitHub"
+          href="https://github.com/bxhieu713"
+          aria-label="Follow @bxhieu713 on GitHub"
         >
-          Follow @longwater1234
+          Follow @bxhieu713
         </github-button>
       </el-row>
     </div>
